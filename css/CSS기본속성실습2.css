@@ -1,0 +1,10 @@
+table {
+    background-color: blanchedalmond;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+.title name {
+    background-color: orange;
+    border-bottom: 2px solid brown;
+}

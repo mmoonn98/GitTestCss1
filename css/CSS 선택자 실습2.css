@@ -1,0 +1,11 @@
+.before_after > p::after{
+    content:'N';
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}

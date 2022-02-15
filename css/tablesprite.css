@@ -1,0 +1,30 @@
+table {
+    border: solid 3px black;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    text-align: center;
+    background-color: burlywood;
+    empty-cells: hide;
+}
+td {
+    border: dashed 1px gray;
+}
+
+.up, .down, .left, .right {
+    background-image: url("../css/img/img1.png");
+    width: 59px;
+    height: 62px;
+}
+
+.up {
+    background-position: 0 0;
+}
+.down {
+    background-position: -59px 0;
+}
+.left {
+    background-position: -120 0;
+}
+.right {
+    background-position: -180 0;
+}

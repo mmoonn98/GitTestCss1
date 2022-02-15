@@ -1,0 +1,60 @@
+.color_gradient {
+    width: 200px;
+    height: 100px;
+    background: red;
+    background: -webkit-linear-gradient(red 50%,yellow 50%);
+    background: linear-gradient(red,yellow);
+}
+
+.color_css3 {
+    width: 200px;
+    height: 100px;
+    background: rgba(255,255,0,0.1);
+}
+
+.color_gradient_deg {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(180deg,green,yellow);
+}
+
+.color_gradient_circle {
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(closest-corner,red,yellow);
+    box-shadow: 1px 1px 3px gray;
+}
+
+.background_image {
+    width: 200px;
+    height: 100px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/30/14/20/penguins-6981054_960_720.jpg);
+    background-size: 200px 100px;
+    padding: 100px;
+    background-origin: padding-box;
+    border: 10px solid black;
+}
+
+.border_image { 
+    width: 200px;
+    height: 100px;
+    border: solid 20px transparent;
+    border-image: url(../css/img/pattern.png);
+}
+
+
+.text_overflow {
+
+    width: 350px;
+    height: 1.2em;
+    border: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.word_wrap {
+    border: 1px solid black;
+    width: 130px;
+    word-wrap: break-word;
+}

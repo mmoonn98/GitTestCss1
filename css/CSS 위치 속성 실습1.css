@@ -1,0 +1,25 @@
+.shortcut {
+    width: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: blanchedalmond;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color : black
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}

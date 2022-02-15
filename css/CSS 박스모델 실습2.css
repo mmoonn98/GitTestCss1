@@ -1,0 +1,15 @@
+table {
+    background-color: blanchedalmond;
+    border-collapse: collapse;
+    border-radius: 20px;
+    margin: auto;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+.title_name {
+    background-color: orange;
+    border-bottom: 2px solid brown;
+}

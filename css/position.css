@@ -1,0 +1,50 @@
+div {
+    display: inline-block;
+    background-color: burlywood;
+    padding: 20px;
+    width: 200px;
+    height: auto;
+}
+
+a {
+    width: 200px;
+    height: 30px;
+    background-color: cadetblue;
+}
+
+p {
+    background-color: darkkhaki;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.static { 
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+}
+
+.fix {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.absolute {
+    position: absolute;
+    right: 0;
+    top: 300px;
+}

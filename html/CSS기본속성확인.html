@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/color background.css">
+    <link rel="stylesheet" href="../css/textfont.css">
+    <link rel="stylesheet" href="../css/linklist.css">
+    <link rel="stylesheet" href="../css/tablesprite.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+</head>
+<body class="background_image">
+    <h1>CSS기본 속성 확인</h1>
+    <h3>color를 통한 색상 넣기</h3>
+    <p class="color_name">css 색이름으로 색 넣기 : yellow</p>
+    <p class="color_rgb">css rgb()값으로 색 넣기 : rgb(255,255,0)</p>
+    <p class="color_16">css 16진수 값으로 색 넣기 : #FFFF00</p>
+    
+    <h3>background를 통한 이미지넣기</h3>
+    <div>
+        <p>div의 background에 이미지 넣기</p>
+        <p>
+            이미지링크를 통해서 이미지를 넣어줄수 있으며, <br>
+            기본값은 repeat 이다. : no, x, y, repeat
+        </p>
+        <p>
+            position을 통해 위치를 지정해줄수 있다. <br>
+            세로축 위치 : top,center,bottob <br>
+            가로축 위치 : left, center, right <br>
+        </p>
+        <p>
+            attachment를 통해 위치를 고정시켜줄수있다. <br>
+            fixed : 스크롤을 내렸을때 움직이지않음 <br>
+            scroll : 스크롤을 내렸을때 따라움직임 <br>
+        </p>
+    </div>
+
+    <h3>텍스트 속성확인</h3>
+    <p class="text">글씨가 왼쪽에서 써집니다</p>
+
+    <p class="text_p">
+
+        또 결승에서도 헝가리 선수가 가장 먼저 결승선을 통과했으나 역시 레이스 도중 반칙을 지적받고 실격당해 
+        중국 선수 두 명이 나란히 금메달과 은메달을 가져갔다.
+        우리 선수단은 경기 종료 후 쇼트트랙 심판 위원장에게 강력히 항의하고 국제빙상경기연맹(ISU)과 국제올림픽위원회(IOC)에
+        항의 서한문을 발송했다.
+        대한체육회는 "이번 제소 결정은 그동안 피땀 흘려 노력한 우리 선수들과 국내에서 들끓는 편파 판정에 대한 국민감정 등을 고려했다"며
+        "심판 판정이 국제 스포츠계 지지를 받을 수 없고, 불공정하고 투명하지 못한 국제연맹과 국제 심판들과의 관계 역시 종합적으로 
+        판단했다"고 제소에 나선 배경을 설명했다.
+        <br>
+        베이징 올림픽기사입니다.
+    </p>
+
+    <h3 class="font_h3">폰트 속성 확인</h3>
+    <p class="font">fantasy 글꼴 속성입니다.</p>
+
+    <h3> 웹폰트를 사용해서 출력하기</h3>
+    <p style="font-family: Jua;"> link를 통해 들고온 웹 폰트</p>
+    <p class="web_font">CSS를 통해 들고온 웹 폰트</p>
+
+    <h3>링크에 CSS효과로 꾸미기</h3>
+    <a href="http://www.naver.com">네이버</a>
+
+    <h3>리스트에 CSS효과로 꾸미기</h3>
+    <ul class="unordered_list_mark">
+        <li>순서가 없는 리스트</li>
+        <li>순서가 없는 리스트</li>
+        <li>순서가 없는 리스트</li>
+    </ul>
+
+    <ol class="ordered_list_mark">
+        <li>순서가 있는 리스트</li>
+        <li>순서가 있는 리스트</li>
+        <li>순서가 있는 리스트</li>
+    </ol>
+    <div>
+        <p>list-style-type을 none으로 만들면 앞의 숫자 혹은 마크가 없어진다.</p>
+
+    </div>
+    
+    <div>
+        <h1>테이블에 CSS효과 넣기</h1>
+        <table>
+            <tr>
+                <td>동물의 종류</td>
+                <td>개월수</td>
+                <td>이름</td>
+            </tr>
+            <tr>
+                <td>강아지</td>
+                <td>6</td>
+                <td>초코</td>
+            </tr>
+            <tr>
+                <td>강아지</td>
+                <td>6</td>
+            
+            </tr>
+        </table>
+        <p>
+            border-collapse 속성은 
+            collapse(합치기) separate(분리) 값이있다. <br>
+            이때 empty-cells를 사용할 때는
+            separate 속성값일때 사용이 가능하다.<br>
+            border-spacing도 동일
+        </p>
+    </div>
+
+    <div class="">
+        <h1>이미지 스프라이트 활용하기</h1>
+        <div class="up"></div>
+        <div class="down"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+
+        <p>
+            이미지 스트라이프는 배경이미지를 통해서
+            그림을 잘라서 사용한다. <br>
+            이때 div의 width와 height를 사용하여
+            배경이미지를 사용할 공간을 지정 <br>
+            div는 안에 컨텐츠가 없으면 공간을 주지않는다.
+        </p>
+    </div>
+
+</body>
+</html>

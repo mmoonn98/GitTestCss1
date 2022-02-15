@@ -1,0 +1,82 @@
+.parents p {
+    background-color: blue;
+}
+
+.parents_children > p {
+    background-color: yellow;
+}
+
+.sibling ~ p {
+    background-color: aqua
+}
+
+.adjacent + p {
+    background-color: cadetblue;
+}
+
+.hover:hover {
+    background-color: blueviolet;
+}
+
+.focus:focus {
+    color: crimson;
+    font-weight: bold;
+}
+
+.input > input:checked + span{
+    color: coral;
+}
+
+.input > input:disabled + span{
+    text-decoration: line-through;
+}
+
+
+p.first:first-child {
+    background-color: darkorange;
+}
+
+p.first:last-child {
+    background-color: aquamarine;
+}
+
+p.first:nth-child(2) {
+    background-color: cornflowerblue;
+}
+
+p.type:first-of-type {
+    background-color: black;
+    color: white;
+}
+
+.pseudo > p::first-letter{
+    font-size: 2em;
+}
+
+.pseudo_line>p::first-line {
+    text-decoration: underline;
+}
+
+.before_after > p::before{
+    content: "항상같은말";
+}
+
+.before_after > p::after{
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+.selection > p::selection {
+    color: cadetblue;
+}
+
+[title *="p"] {
+    background-color: fuchsia;
+}
+
+.not > p:not([title="n"]) {
+    color: darkorange;
+}
